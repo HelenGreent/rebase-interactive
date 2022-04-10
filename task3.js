@@ -1,7 +1,7 @@
 function isValidParentheses(parens){
-  var indent = 0;
+  let indent = 0;
   
-  for (var i = 0 ; i < parens.length && indent >= 0; i++) {
+  for (let i = 0 ; i < parens.length && indent >= 0; i++) {
     indent += (parens[i] == '(') ? 1 : -1;    
   }
   
