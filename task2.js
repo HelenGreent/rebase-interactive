@@ -1,6 +1,6 @@
-const codeA = "a".charCodeAt();
-
 function grid(N) {
+  const codeA = "a".charCodeAt();
+  
   if (N < 0) return null;
   const grid = [];
   for (let row = 0; row < N; row++) {
